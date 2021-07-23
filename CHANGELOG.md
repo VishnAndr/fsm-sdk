@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.5] 2021-07-24
+### Changed 
+- replace node-fetch library with isomorphic-fetch library to enable FSM SDK to be used in the browser
+- native (nodejs) URLSearchParams
+
 ## [1.2.4] 2021-03-24
 ### Updated 
 - fix error handling, http errors 4xx/5xx status throw ErrorResponse, 304 and 302 do not throw 
